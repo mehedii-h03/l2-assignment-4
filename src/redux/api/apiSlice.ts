@@ -1,8 +1,8 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
 // Base URL
-// const BASE_URL = "https://l2-assignment-3-lime.vercel.app/api/";
-const BASE_URL = "http://localhost:5000/api";
+const BASE_URL = "https://l2-assignment-3-lime.vercel.app/api";
+// const BASE_URL = "http://localhost:5000/api";
 
 export const apiSlice = createApi({
   reducerPath: "api",
